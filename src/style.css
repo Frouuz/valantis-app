@@ -1,0 +1,20 @@
+*{
+    font-family: "Montserrat-Regular";
+}
+
+body{
+    background-color: #161616;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.wrapper{
+    max-width: 1300px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../public/fonts/Montserrat-Regular.ttf');
+}

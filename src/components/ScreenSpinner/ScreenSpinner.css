@@ -1,0 +1,49 @@
+.spinner-container{
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background-color: #12121263;
+}
+
+
+.spinner{
+    width: 200px;
+    height: 200px;
+    background-color: #161616;
+
+    border: 2px solid gray;
+    border-radius: 20px;
+
+    position: absolute;
+
+    left: 50%;
+    top: 350px;
+
+    transform: translateX(-50%);
+    padding: 10px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner svg{
+    animation: screen-spinner 1s linear infinite;
+    width: 100px;
+}
+
+@keyframes screen-spinner {
+
+    from{
+        transform: rotate(0deg);
+    }
+    
+    to{
+        transform: rotate(360deg);
+    }
+}

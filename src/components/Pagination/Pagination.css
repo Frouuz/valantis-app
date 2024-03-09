@@ -1,0 +1,32 @@
+.pagination-container{
+    display: flex;
+    margin: 15px 0;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.pagination-item{
+    border: none;
+    outline: none;
+
+    padding: 0 15px;
+
+    font-size: 14px;
+    border-radius: 7px;
+
+    background-color: #121212;
+
+    border: 1px solid gray;
+    color: #fff;
+
+    cursor: pointer;
+
+    transition: all .5s;
+
+    font-weight: bold;
+}
+
+.pagination-item:hover{
+    opacity: .7;
+}
